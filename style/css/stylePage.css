@@ -1,0 +1,84 @@
+/* body{
+    background-color: red;
+} */
+
+ul.right_icon li a {
+    position: relative;
+}
+
+ul.right_icon li a span {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: red;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 23px;
+}
+
+ul.right_icon li a img {
+    margin-right: 0px;
+}
+
+ul.right_icon .order {
+    margin-left: 30px;
+}
+
+.six_box .six_probpx i {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.project .project_box {
+    min-width: 197px;
+}
+
+.error_message {
+    color: red;
+}
+
+.error_data {
+    color: var(--app-content-main-color);
+    font-size: 24px;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.redBtn,
+.blueBtn,
+.greenBtn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 12px;
+    margin: 0px 2px;
+    border-radius: 4px;
+}
+
+.blueBtn {
+    background-color: blue;
+}
+
+.blueBtn:hover {
+    background-color: rgb(51, 51, 241);
+}
+
+.redBtn {
+    background-color: red;
+}
+
+.redBtn:hover {
+    background-color: rgb(238, 31, 31);
+}
+
+.greenBtn {
+    background-color: green;
+}
+
+.greenBtn:hover {
+    background-color: #2af12a;
+}
